@@ -30,7 +30,7 @@ public class Driver {
 
         driver.get("https://www.google.co.uk/?gfe_rd=cr&ei=9qT6Vt2dMYbW8AeawImQDQ&gws_rd=ssl");
         System.out.println("open application");
-        driver.findElement(By.id("searchText")).sendKeys("way2auto Testing Ltd");
+        driver.findElement(By.id("searchText")).sendKeys("way2auto Testing Ltd");//added
     }
     @After
     public void tearDown(){
